@@ -76,7 +76,7 @@ export default function App() {
     
     setData();
   }
-//
+//adicionando tarefas
   function addTarefa(){
 
     setModal(!modal);
@@ -92,7 +92,7 @@ export default function App() {
     setarTarefas([...tarefas,tarefa]);
 
   }
-
+//parte visual
   return (
   
     <ScrollView style={{flex:1}}>
